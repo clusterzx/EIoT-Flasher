@@ -15,9 +15,9 @@ https://github.com/clusterzx/EioT-Framework
 4. Get the src (base64 encoded) for the module -> decode it -> change GPIO settings -> encode it -> put back -> save
 
 (ex. for Thermostat):
-```python
+```c++
 //DHT Sensor 
-uint8_t DHTPin = 12; //14 bevor Löttest
+uint8_t DHTPin = 12;
 ```
 and set it to your GPIO Pin on your board where the DHT11 is connected.
 
